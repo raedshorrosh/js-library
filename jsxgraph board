@@ -12,6 +12,7 @@ var board = JXG.JSXGraph.initBoard(divid, {
   keepaspectratio: true,
   pan:{enabled:false},
   zoom:{enabled:false},
+  keyboard: {enabled: false},
   resize: {enabled:true}
 });
 
